@@ -1,0 +1,38 @@
+.listGrid{
+    background-color: rgb(17,17,17); 
+}
+
+.selectList{
+    display : grid;
+    grid-template-columns : repeat(8, 11rem);
+    gap : 30px;
+    align-items: center;
+    height : 20rem;
+    padding-left : 3rem;
+}
+
+.gridTitle{
+    width : 100%;
+    color : white;
+    font-size : 1.5rem;
+    font-weight : bold;
+    padding-left : 3rem;
+    padding-top : 1rem;
+}
+
+.movieElement{
+    text-align: center;
+}
+
+.movieElement > a{
+    height : 100px;
+}
+.movieElement > a > img{
+    width : 100%;
+    transition : all ease 0.5s 0s;
+}
+
+.movieElement > a > img:hover{
+    height : 103%;
+    width : 103%;
+}
